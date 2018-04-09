@@ -3,3 +3,4 @@ git_branch() {
 }
 
 export PS1="\u@\[\033[32m\]\w\[\033[33m\]\$(git_branch)\[\033[00m\]\$ " 
+
